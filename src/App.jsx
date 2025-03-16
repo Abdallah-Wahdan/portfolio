@@ -6,6 +6,7 @@ import background from './IMG/background.png';
 import Time from './Components/Time.jsx';
 import Search from './Components/Search.jsx';
 import "./Components/compStyles.css";
+import { LogInHome } from './Components/Login.jsx';
 
 
 const BackgroundContainer = styled.div`
@@ -22,6 +23,7 @@ const BackgroundContainer = styled.div`
 function App() {
   return (
    <BackgroundContainer>
+        <LogInHome />
         <Search />
         <Time />    
    </BackgroundContainer>
